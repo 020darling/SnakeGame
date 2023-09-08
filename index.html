@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+2&family=Montserrat:wght@100&family=Noto+Sans+TC&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="./resource/favion.ico" />
+    <title>不是很貪心的蛇蛇</title>
+  </head>
+  <body>
+    <h1>Don't be greedy! - NOKIA</h1>
+    <h2 id="nd">Use your W/A/S/D to control!</h2>
+    <canvas
+      id="snake_drawing"
+      width="400px"
+      height="400px"
+      style="background-color: #a3b231"
+    ></canvas>
+    <div class="button">
+      <button type="button" id="start_game" onclick="location.reload()">
+        Restart
+      </button>
+      <button type="button" id="clear">Delete My Record</button>
+    </div>
+    <div class="scoreboard">
+      <h3>Score Board</h3>
+      <p id="nows_mark">Current Mark:</p>
+      <p id="highest_mark">Highest Mark:</p>
+    </div>
+    <script src="./script/main.js"></script>
+  </body>
+</html>

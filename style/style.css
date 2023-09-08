@@ -1,0 +1,69 @@
+* {
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #36416f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+body h1 {
+  font-weight: 100;
+  color: lightpink;
+}
+body h2 {
+  font-weight: 100;
+  color: rgba(58, 218, 18, 0.644);
+}
+body #snake_drawing {
+  margin-top: 10px;
+  border: 5px solid #b6bde9;
+  border-radius: 5px;
+}
+body div.button {
+  width: 500px;
+  height: 100px;
+  background-color: #abcc9a;
+  text-align: center;
+  margin-top: 50px;
+  border: 5px solid #b6bde9;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+body div.button button#start_game {
+  padding: 0.25rem 0.5rem;
+  background-color: yellow;
+  font-size: 1.5rem;
+  display: block;
+  border-radius: 5px;
+}
+body div.button button#clear {
+  padding: 0.25rem 0.5rem;
+  background-color: lightgreen;
+  font-size: 1.5rem;
+  display: block;
+  border-radius: 5px;
+}
+body div.scoreboard {
+  width: 400px;
+  height: 200px;
+  background-color: #abcc9a;
+  text-align: center;
+  margin-top: 50px;
+  border: 5px solid #b6bde9;
+  border-radius: 10px;
+  overflow: hidden;
+}
+body div.scoreboard h3 {
+  color: purple;
+}
+body div.scoreboard p {
+  font-size: 1.5rem;
+}/*# sourceMappingURL=style.css.map */
